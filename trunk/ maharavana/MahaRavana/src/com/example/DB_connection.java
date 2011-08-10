@@ -25,7 +25,7 @@ public class DB_connection {
         try {
             Class.forName("org.sqlite.JDBC");
             //conn = DriverManager.getConnection("jdbc:sqlite:C://Users//hp//Desktop//MahaRavana//db//MahaRavana");
-            conn = DriverManager.getConnection("jdbc:sqlite:C://Users//hp//Desktop//MahaRavana//db//new_test.db");
+            conn = DriverManager.getConnection("jdbc:sqlite:D://MahaRawana//MahaRavana//db//new_test.db");
             stat = conn.createStatement();
         }catch (ClassNotFoundException ex) {
             //Logger.getLogger(Tagger.class.getName()).log(Level.SEVERE, null, ex);

@@ -83,8 +83,6 @@ public final class MahaRavana extends WeakBase
             if ( aURL.Path.compareTo("command") == 0 )
             {
                 // add your own code here
-
-
                 setTextDocument("testing");
                 return;
             }
